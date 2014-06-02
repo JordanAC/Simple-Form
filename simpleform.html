@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+	<meta charset="utf-8">
+	<title>Simple Signup Form</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
 <body>
-	<h1> Simple Form </h1>
-	<form>
-		 First name: <input type="text" maxlength="30" name="first-name"><br>
-		 Last name: <input type="text" maxlength="30" name="last-name"><br>
-		 Email Address: <input type="text" maxlength="30" name="email-address"><br>
-		 <input type="submit" value="Submit">
+	<div class="container">
+	<form class="signup-form">
+		<h1 class="form-head">Please Sign Up</h1>
+		 <input class="form-input" type="name" size="40" name="first-name" placeholder="First Name"><br>
+		 <input class="form-input" type="name" size="40" name="last-name" placeholder="Last Name"><br>
+		 <input class="form-input" type="email" size="40" name="email-address" placeholder="Email Address"><br>
+		 <input class="form-input" type="submit" value="SIGN UP">
 	</form>
+	</div>
 </body>
 </html>
