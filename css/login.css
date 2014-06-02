@@ -16,15 +16,14 @@ body {
   height: auto;
   padding: 10px;
   font-size: 16px;
+  border-radius: 5%;
 }
 
 .signup-form input[type="email"] {
   margin-bottom: 5px;
-  border-radius: 5%;
 }
 .signup-form input[type="name"] {
   margin-bottom: 10px;
-  border-radius: 5%;
 }
 
 .signup-form input[type="submit"] {
