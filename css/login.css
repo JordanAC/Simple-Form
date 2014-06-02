@@ -1,0 +1,38 @@
+/* CSS document */
+
+body {
+  padding-top: 40px;
+  background-color: #D8D8D8;
+}
+
+.signup-form {
+  max-width: 400px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.signup-form .form-input {
+  position: relative;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.signup-form input[type="email"] {
+  margin-bottom: 5px;
+  border-radius: 5%;
+}
+.signup-form input[type="name"] {
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
+
+.signup-form input[type="submit"] {
+ background: #0000FF;
+ color: white;
+ width: 200px;
+ border-radius: 7%;
+ font-weight: bold;
+ font-size: 20px;
+ letter-spacing: 1px;
+}
