@@ -42,7 +42,7 @@ body {
 .signup-form input[type="email"] {
   margin-bottom: 5px;
 }
-.signup-form input[type="name"] {
+.signup-form input[type="text"] {
   margin-bottom: 5px;
 }
 
