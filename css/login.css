@@ -6,7 +6,7 @@ body {
 }
 
 .signup-form {
-  max-width: 400px;
+  max-width: 390px;
   padding: 25px;
   margin: 0 auto;
 }
@@ -17,20 +17,19 @@ body {
   padding: 10px;
   font-size: 16px;
   border-radius: 5%;
+  width: 100%;
 }
 
 .signup-form input[type="email"] {
   margin-bottom: 5px;
 }
 .signup-form input[type="name"] {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .signup-form input[type="submit"] {
  background: #0000FF;
  color: white;
- width: 200px;
- border-radius: 7%;
  font-weight: bold;
  font-size: 20px;
  letter-spacing: 1px;
